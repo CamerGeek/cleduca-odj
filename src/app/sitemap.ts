@@ -9,14 +9,30 @@ import {
 } from "@/lib/content/queries";
 import { getSiteUrl } from "@/lib/utils";
 
+export const revalidate = 3600;
+
+// Un schéma Supabase absent ou une base momentanément injoignable ne doit pas
+// faire échouer tout le déploiement : le plan de site reste partiel mais valide.
+async function readOrEmpty<T>(label: string, read: () => Promise<T[]>): Promise<T[]> {
+  try {
+    return await read();
+  } catch (error) {
+    console.error(
+      `[sitemap] Lecture « ${label} » impossible : le plan de site sera partiel.`,
+      error,
+    );
+    return [];
+  }
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = getSiteUrl().replace(/\/$/, "");
   const [areas, projects, articles, pages, events] = await Promise.all([
-    getAreas(),
-    getProjects(),
-    getArticles(),
-    getPages(),
-    getEvents(),
+    readOrEmpty("domaines d’intervention", getAreas),
+    readOrEmpty("projets", getProjects),
+    readOrEmpty("actualités", getArticles),
+    readOrEmpty("pages", getPages),
+    readOrEmpty("événements", getEvents),
   ]);
 
   const now = new Date();
