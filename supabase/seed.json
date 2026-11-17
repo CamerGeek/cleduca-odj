@@ -1,0 +1,1248 @@
+{
+  "settings": {
+    "siteName": "CLEDUCA-ODJ",
+    "fullName": "Club d'Éducation Actuelle – Organisation pour le Développement de la Jeunesse",
+    "tagline": "Éduquer, autonomiser et bâtir des communautés résilientes.",
+    "positioning": "Organisation de la société civile burkinabè, reconnue et à but non lucratif, engagée depuis 1997 pour l'éducation, l'autonomisation des jeunes, l'inclusion sociale et le développement communautaire.",
+    "foundedYear": 1997,
+    "city": "Bobo-Dioulasso",
+    "region": "Hauts-Bassins",
+    "country": "Burkina Faso",
+    "contactEmail": "",
+    "contactPhone": "",
+    "contactAddress": "Bobo-Dioulasso, Hauts-Bassins, Burkina Faso",
+    "contactHours": "",
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "youtube": "",
+      "whatsapp": ""
+    },
+    "hero": {
+      "eyebrow": "Société civile · Burkina Faso · depuis 1997",
+      "title": "Ensemble, construisons des communautés plus fortes et résilientes.",
+      "subtitle": "Depuis 1997, CLEDUCA-ODJ accompagne les dynamiques d'éducation, d'autonomisation, d'inclusion et de développement communautaire au Burkina Faso.",
+      "primaryLabel": "Découvrir notre organisation",
+      "primaryHref": "/a-propos",
+      "secondaryLabel": "Explorer nos projets",
+      "secondaryHref": "/projets",
+      "image": "/images/community-gathering.jpg",
+      "imageAlt": "Séance de sensibilisation communautaire en plein air au Burkina Faso, animée par une femme devant un groupe de participants.",
+      "caption": "Photo d'illustration : dialogue communautaire au Burkina Faso. Crédit : DFID (CC BY 2.0)."
+    },
+    "newsletter": {
+      "title": "Suivre nos initiatives",
+      "description": "Recevez les publications institutionnelles, les avancées de nos projets et les informations communautaires de CLEDUCA-ODJ.",
+      "consentLabel": "J'accepte de recevoir des informations de CLEDUCA-ODJ et de pouvoir me désinscrire à tout moment."
+    },
+    "footerNote": "Organisation de la société civile à but non lucratif, reconnue, basée à Bobo-Dioulasso, Burkina Faso.",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  "collections": {
+    "projects": [
+      {
+        "id": "project-pasedi",
+        "slug": "pasedi",
+        "title": "Continuité éducative pour les enfants déplacés internes",
+        "acronym": "PASEDI",
+        "summary": "Une initiative de continuité éducative au bénéfice d’enfants et de jeunes déplacés internes et d’élèves des communautés d’accueil, incluant les enfants en situation de handicap.",
+        "context": "Les déplacements forcés interrompent les parcours scolaires et fragilisent les écoles qui accueillent de nouveaux élèves. Les enfants et les jeunes déplacés internes risquent de perdre le lien avec l’apprentissage, tandis que les communautés d’accueil doivent absorber une pression supplémentaire sur leurs services éducatifs.\n\nPASEDI a été conçu pour soutenir la continuité éducative dans ce contexte. L’initiative accompagne des enfants et des jeunes déplacés internes ainsi que des élèves des communautés d’accueil, dans cinq écoles réparties entre les Cascades et la Boucle du Mouhoun. Elle prend explicitement en compte les enfants en situation de handicap.\n\nLe dispositif s’appuie sur les établissements scolaires et les communautés afin de maintenir les apprentissages, de favoriser l’intégration des élèves et de renforcer la capacité des écoles à accueillir la diversité des situations.",
+        "objectives": [
+          "Assurer la continuité éducative des enfants et des jeunes déplacés internes",
+          "Favoriser l’intégration des élèves dans les écoles d’accueil",
+          "Garantir la prise en compte des enfants en situation de handicap",
+          "Renforcer l’accompagnement des communautés éducatives"
+        ],
+        "coverage": [
+          "Cascades — 2 écoles",
+          "Boucle du Mouhoun — 3 écoles"
+        ],
+        "beneficiaries": [
+          "200 enfants et jeunes déplacés internes",
+          "100 élèves des communautés d’accueil",
+          "Enfants en situation de handicap"
+        ],
+        "activities": [
+          "Appui à la scolarisation et à la continuité des apprentissages",
+          "Accompagnement des élèves des communautés d’accueil",
+          "Prise en compte des besoins des enfants en situation de handicap",
+          "Mobilisation des écoles, des familles et des communautés"
+        ],
+        "results": [
+          "200 enfants et jeunes déplacés internes concernés",
+          "100 élèves des communautés d’accueil concernés",
+          "5 écoles mobilisées : 2 dans les Cascades et 3 dans la Boucle du Mouhoun",
+          "Inclusion explicite des enfants en situation de handicap dans le dispositif"
+        ],
+        "periodLabel": "Période à confirmer",
+        "partners": [],
+        "funders": [],
+        "status": "ongoing",
+        "statusNote": "Le statut opérationnel et la période de mise en œuvre sont à confirmer avec l’équipe de CLEDUCA-ODJ.",
+        "areaSlugs": [
+          "education-alphabetisation",
+          "inclusion-sociale-handicap",
+          "developpement-autonomisation-jeunes"
+        ],
+        "featured": true,
+        "image": "/images/hero-classroom.jpg",
+        "imageAlt": "Élèves dans une salle de classe au Burkina Faso, devant un tableau noir couvert d’inscriptions.",
+        "gallery": [
+          {
+            "url": "/images/literacy-class.jpg",
+            "alt": "Centre d’alphabétisation en briques au Burkina Faso.",
+            "caption": "Photo d’illustration : centre d’alphabétisation au Burkina Faso."
+          },
+          {
+            "url": "/images/school-garden.jpg",
+            "alt": "Élève arrosant un jardin scolaire au Burkina Faso.",
+            "caption": "Photo d’illustration : activités scolaires au Burkina Faso."
+          }
+        ],
+        "documents": [],
+        "contentStatus": "published",
+        "publishedAt": "2026-11-17",
+        "sortOrder": 1,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "project-palven",
+        "slug": "palven",
+        "title": "Alphabétisation et veille numérique pour la cohésion sociale",
+        "acronym": "PALVEN",
+        "summary": "Un projet consacré à l’alphabétisation numérique, à la citoyenneté responsable, à la sécurité en ligne et à la lutte contre la désinformation.",
+        "context": "Le numérique occupe une place croissante dans la vie quotidienne, l’accès à l’information et les relations sociales. Pour les jeunes et les communautés, il représente une opportunité d’apprentissage et d’expression, mais aussi un espace exposé à la désinformation, aux arnaques, aux discours de division et aux atteintes à la vie privée.\n\nPALVEN — Projet d’alphabétisation et de veille numérique pour la cohésion sociale — répond à ce double enjeu. Il vise à renforcer les compétences numériques, à promouvoir une citoyenneté numérique responsable et à outiller les jeunes et les communautés face aux risques en ligne.\n\nLe projet articule éducation, vigilance et engagement communautaire. Il accorde une attention particulière à la protection des données personnelles, à la sécurité en ligne et à la lutte contre la désinformation, dans une perspective de cohésion sociale.",
+        "objectives": [
+          "Renforcer l’alphabétisation numérique des jeunes et des communautés",
+          "Promouvoir une citoyenneté numérique responsable",
+          "Améliorer la sécurité en ligne et la protection des données personnelles",
+          "Lutter contre la désinformation et ses effets sur la cohésion sociale",
+          "Encourager l’engagement des jeunes et des communautés"
+        ],
+        "coverage": [
+          "Hauts-Bassins (zone à confirmer)"
+        ],
+        "beneficiaries": [
+          "Jeunes et adolescents",
+          "Communautés locales",
+          "Acteurs de la société civile",
+          "Parents et encadrants"
+        ],
+        "activities": [
+          "Ateliers d’alphabétisation numérique",
+          "Sensibilisation à la sécurité en ligne et à la protection des données",
+          "Échanges sur la désinformation et l’esprit critique",
+          "Mobilisation des jeunes et des communautés autour d’usages responsables"
+        ],
+        "results": [],
+        "periodLabel": "Période à confirmer",
+        "partners": [],
+        "funders": [],
+        "status": "ongoing",
+        "statusNote": "Les résultats, la zone d’intervention précise et la période de mise en œuvre sont à documenter avec l’équipe du projet.",
+        "areaSlugs": [
+          "education-numerique",
+          "education-alphabetisation",
+          "cohesion-sociale-prevention-conflits",
+          "developpement-autonomisation-jeunes"
+        ],
+        "featured": true,
+        "image": "/images/digital-training.jpg",
+        "imageAlt": "Trois femmes devant un ordinateur lors d’une session de formation numérique au Burkina Faso.",
+        "gallery": [
+          {
+            "url": "/images/digital-training.jpg",
+            "alt": "Session de formation numérique avec des participantes au Burkina Faso.",
+            "caption": "Photo d’illustration : apprentissage numérique au Burkina Faso."
+          }
+        ],
+        "documents": [],
+        "contentStatus": "published",
+        "publishedAt": "2026-11-17",
+        "sortOrder": 2,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "project-guiriko",
+        "slug": "justice-de-proximite-guiriko",
+        "title": "Justice de proximité – Guiriko",
+        "acronym": "Guiriko",
+        "summary": "Une initiative qui rapproche l’information juridique des communautés et soutient la prévention des violences et la médiation sociale.",
+        "context": "L’accès à la justice reste difficile pour de nombreuses personnes, en raison de l’éloignement des services, des coûts, de la complexité des procédures ou de la méconnaissance des droits. Ces obstacles sont particulièrement importants pour les femmes, les filles et les personnes en situation de vulnérabilité.\n\nJustice de proximité – Guiriko propose une réponse de proximité fondée sur l’information juridique, la sensibilisation et la médiation communautaire. L’initiative met l’accent sur les droits des femmes et des filles, la prévention des violences basées sur le genre, la prévention des conflits et la cohésion sociale.\n\nElle combine activités mobiles d’information juridique, séances de sensibilisation et capsules vidéo éducatives, afin de rendre le droit plus compréhensible et plus accessible aux communautés.",
+        "objectives": [
+          "Rapprocher l’information juridique des communautés",
+          "Renforcer la connaissance et l’exercice des droits des femmes et des filles",
+          "Contribuer à la prévention des violences basées sur le genre",
+          "Prévenir les conflits et soutenir la médiation communautaire",
+          "Renforcer la cohésion sociale"
+        ],
+        "coverage": [
+          "Bobo-Dioulasso et environs (zone à confirmer)"
+        ],
+        "beneficiaries": [
+          "Femmes et filles",
+          "Communautés locales",
+          "Personnes en recherche d’information juridique",
+          "Leaders communautaires et acteurs de la médiation"
+        ],
+        "activities": [
+          "Activités mobiles d’information juridique",
+          "Séances de sensibilisation aux droits",
+          "Prévention des violences basées sur le genre",
+          "Médiation communautaire et prévention des conflits",
+          "Production et diffusion de capsules vidéo éducatives"
+        ],
+        "results": [],
+        "periodLabel": "Période à confirmer",
+        "partners": [],
+        "funders": [],
+        "status": "ongoing",
+        "statusNote": "Le statut opérationnel, la zone d’intervention précise et les résultats sont à confirmer avec l’équipe de CLEDUCA-ODJ.",
+        "areaSlugs": [
+          "acces-justice-droits-humains",
+          "egalite-genre-femmes",
+          "cohesion-sociale-prevention-conflits"
+        ],
+        "featured": true,
+        "image": "/images/community-radio.jpg",
+        "imageAlt": "Journaliste dans un studio de radio communautaire au Burkina Faso.",
+        "gallery": [
+          {
+            "url": "/images/community-gathering.jpg",
+            "alt": "Séance de sensibilisation communautaire en plein air au Burkina Faso.",
+            "caption": "Photo d’illustration : dialogue et sensibilisation communautaire."
+          }
+        ],
+        "documents": [],
+        "contentStatus": "published",
+        "publishedAt": "2026-11-17",
+        "sortOrder": 3,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "project-civlink",
+        "slug": "civi-link",
+        "title": "Coordination numérique et intelligence communautaire",
+        "acronym": "CIVI-LINK",
+        "summary": "Une initiative régionale proposée par CLEDUCA-ODJ pour renforcer la coordination entre organisations de la société civile et faciliter l’accès à une information communautaire agrégée et fiable.",
+        "context": "Les acteurs de la société civile et les services de proximité disposent souvent d’informations et de dispositifs dispersés. Cette fragmentation limite la coordination, la visibilité des services disponibles et la capacité à répondre de manière cohérente aux besoins des communautés.\n\nCIVI-LINK est une initiative régionale en phase de conception, portée par CLEDUCA-ODJ. Elle vise à créer un cadre de coordination numérique et d’intelligence communautaire dans les Hauts-Bassins, en rapprochant les organisations de la société civile, les acteurs locaux et les communautés autour d’une information agrégée et utile.\n\nLe projet est conçu selon des principes stricts de gouvernance des données : aucune donnée nominative sensible concernant les personnes déplacées ne doit être collectée ou exposée ; les informations doivent rester agrégées ; la gouvernance est partagée entre les parties prenantes ; la participation communautaire est centrale. L’initiative doit rester utile même sans participation directe des autorités publiques.",
+        "objectives": [
+          "Renforcer la coordination entre les organisations de la société civile",
+          "Cartographier les services communautaires disponibles",
+          "Agréger une information communautaire fiable et utile",
+          "Faciliter la participation et le retour d’information des communautés",
+          "Favoriser la collaboration entre parties prenantes",
+          "Encourager un usage responsable des données et une analyse assistée par l’IA de manière sélective"
+        ],
+        "coverage": [
+          "Hauts-Bassins — phase initiale envisagée"
+        ],
+        "beneficiaries": [
+          "Organisations de la société civile",
+          "Communautés locales",
+          "Acteurs du développement local",
+          "Partenaires techniques et institutionnels"
+        ],
+        "activities": [
+          "Conception d’un cadre de coordination entre organisations",
+          "Cartographie des services communautaires",
+          "Agrégation d’informations communautaires non sensibles",
+          "Mécanismes de participation et de retour d’information",
+          "Définition d’une gouvernance partagée des données",
+          "Exploration d’une analyse assistée par l’IA dans le respect des principes éthiques"
+        ],
+        "results": [],
+        "periodLabel": "Phase de conception — calendrier à définir",
+        "partners": [],
+        "funders": [],
+        "status": "proposed",
+        "statusNote": "CIVI-LINK est une initiative proposée, en phase de conception. Son statut opérationnel n’est pas confirmé.",
+        "areaSlugs": [
+          "education-numerique",
+          "cohesion-sociale-prevention-conflits",
+          "resilience-communautaire-developpement-durable"
+        ],
+        "featured": true,
+        "image": "/images/about-bobo.jpg",
+        "imageAlt": "Vue d’une artère commerçante de Bobo-Dioulasso, Burkina Faso.",
+        "gallery": [
+          {
+            "url": "/images/community-radio.jpg",
+            "alt": "Journaliste dans un studio de radio communautaire.",
+            "caption": "Photo d’illustration : information et communication communautaires."
+          }
+        ],
+        "documents": [],
+        "contentStatus": "published",
+        "publishedAt": "2026-11-17",
+        "sortOrder": 4,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "articles": [
+      {
+        "id": "article-pasedi",
+        "slug": "pasedi-continuite-educative-enfants-deplaces",
+        "title": "PASEDI : maintenir le lien éducatif pour les enfants déplacés internes",
+        "excerpt": "Cinq écoles, deux régions et un principe : aucun enfant ne devrait perdre sa place à l’école à cause d’un déplacement forcé. Présentation du dispositif PASEDI.",
+        "body": "## Une réponse à une rupture éducative\n\nLes déplacements forcés bouleversent les parcours de vie. Pour les enfants et les jeunes, ils signifient souvent une interruption brutale de la scolarité, une perte de repères et une incertitude sur l’avenir. Les écoles des communautés d’accueil, de leur côté, doivent intégrer de nouveaux élèves dans des conditions parfois difficiles.\n\nPASEDI est né de cette réalité. Le dispositif soutient la continuité éducative d’enfants et de jeunes déplacés internes, tout en accompagnant les élèves des communautés d’accueil. Il repose sur une conviction simple : l’école est un espace de protection, de lien social et d’espérance.\n\n## Cinq écoles, deux régions\n\nLe dispositif concerne cinq établissements scolaires :\n\n- deux écoles dans la région des Cascades ;\n- trois écoles dans la région de la Boucle du Mouhoun.\n\nAu total, PASEDI accompagne 200 enfants et jeunes déplacés internes ainsi que 100 élèves des communautés d’accueil. Une attention particulière est portée aux enfants en situation de handicap, afin que l’inclusion ne reste pas un principe abstrait.\n\n## Une approche de proximité\n\nL’initiative s’appuie sur les écoles, les familles et les communautés. Elle vise à maintenir les apprentissages, à favoriser l’intégration des élèves et à renforcer la capacité des établissements à accueillir la diversité des situations.\n\nCette démarche rejoint l’approche historique de CLEDUCA-ODJ : partir des réalités locales, associer les acteurs concernés et construire des réponses durables. La période de mise en œuvre et le statut opérationnel détaillé du dispositif sont à confirmer avec l’équipe de l’association.",
+        "category": "projet",
+        "authorName": "Équipe CLEDUCA-ODJ",
+        "publishedAt": "2026-11-17",
+        "tags": [
+          "PASEDI",
+          "éducation",
+          "déplacés internes",
+          "inclusion"
+        ],
+        "projectSlugs": [
+          "pasedi"
+        ],
+        "coverImage": "/images/hero-classroom.jpg",
+        "coverAlt": "Élèves dans une salle de classe au Burkina Faso, devant un tableau noir.",
+        "featured": true,
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "article-palven",
+        "slug": "palven-education-numerique-citoyennete",
+        "title": "PALVEN : faire du numérique un levier de citoyenneté et de cohésion",
+        "excerpt": "Alphabétisation numérique, sécurité en ligne, protection des données et lutte contre la désinformation : les axes de PALVEN pour des usages responsables.",
+        "body": "## Un accès qui ne suffit pas\n\nLe numérique ouvre des possibilités considérables d’apprentissage, d’information et d’expression. Mais l’accès aux outils ne garantit pas l’autonomie. Sans accompagnement, les utilisateurs peuvent être exposés à la désinformation, aux arnaques, aux discours de division et à des atteintes à leur vie privée.\n\nPALVEN — Projet d’alphabétisation et de veille numérique pour la cohésion sociale — part de ce constat. Le projet vise à renforcer les compétences numériques et à promouvoir une citoyenneté numérique responsable, en particulier auprès des jeunes et des communautés.\n\n## Quatre priorités\n\nLe projet s’organise autour de plusieurs priorités complémentaires :\n\n- **L’alphabétisation numérique**, pour maîtriser les usages de base et comprendre l’environnement numérique ;\n- **La citoyenneté responsable**, pour agir en ligne avec respect, discernement et responsabilité ;\n- **La sécurité en ligne et la protection des données personnelles**, pour prévenir les risques et préserver la vie privée ;\n- **La lutte contre la désinformation**, pour renforcer l’esprit critique et la fiabilité des informations partagées.\n\n## Le lien social comme horizon\n\nPALVEN ne traite pas le numérique comme une fin en soi. L’objectif est de mettre la technologie au service du lien social, de l’éducation et de la participation citoyenne. Les jeunes et les communautés sont au centre de la démarche.\n\nLes résultats, la zone d’intervention précise et la période de mise en œuvre du projet sont à documenter avec l’équipe projet. CLEDUCA-ODJ publiera les informations vérifiées au fur et à mesure de leur consolidation.",
+        "category": "projet",
+        "authorName": "Équipe CLEDUCA-ODJ",
+        "publishedAt": "2026-11-17",
+        "tags": [
+          "PALVEN",
+          "numérique",
+          "citoyenneté",
+          "désinformation"
+        ],
+        "projectSlugs": [
+          "palven"
+        ],
+        "coverImage": "/images/digital-training.jpg",
+        "coverAlt": "Trois femmes devant un ordinateur lors d’une formation numérique au Burkina Faso.",
+        "featured": true,
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "article-guiriko",
+        "slug": "guiriko-justice-de-proximite",
+        "title": "Justice de proximité – Guiriko : rendre le droit plus proche des communautés",
+        "excerpt": "Information juridique mobile, sensibilisation, médiation et capsules vidéo : l’initiative Guiriko rapproche le droit des réalités communautaires.",
+        "body": "## Le droit, une réalité lointaine pour beaucoup\n\nConnaître ses droits est une condition pour les exercer. Pourtant, de nombreuses personnes restent éloignées de l’information juridique, des services de justice et des mécanismes de protection. L’éloignement géographique, les coûts, la complexité des procédures et la méconnaissance du droit constituent des obstacles importants, en particulier pour les femmes, les filles et les personnes vulnérables.\n\nL’initiative Justice de proximité – Guiriko propose une réponse de terrain. Elle vise à rendre l’information juridique accessible, à renforcer la connaissance des droits et à soutenir les mécanismes communautaires de prévention et de médiation.\n\n## Des activités au plus près des communautés\n\nL’initiative s’articule autour de plusieurs modalités complémentaires :\n\n- des activités mobiles d’information juridique ;\n- des séances de sensibilisation aux droits ;\n- des actions de prévention des violences basées sur le genre ;\n- la prévention des conflits et la médiation communautaire ;\n- la production et la diffusion de capsules vidéo éducatives.\n\nCette combinaison permet d’adapter les messages aux réalités locales et de toucher des publics qui ne se rendraient pas spontanément vers un service juridique.\n\n## Une approche complémentaire\n\nCLEDUCA-ODJ agit en complémentarité avec les institutions et les acteurs compétents. L’initiative met l’accent sur la confidentialité, la dignité des personnes et la protection des situations individuelles. Les informations relatives à la zone d’intervention précise, aux résultats et à la période de mise en œuvre sont à confirmer avec l’équipe de l’association.",
+        "category": "projet",
+        "authorName": "Équipe CLEDUCA-ODJ",
+        "publishedAt": "2026-11-17",
+        "tags": [
+          "Guiriko",
+          "justice",
+          "droits",
+          "médiation"
+        ],
+        "projectSlugs": [
+          "justice-de-proximite-guiriko"
+        ],
+        "coverImage": "/images/community-radio.jpg",
+        "coverAlt": "Journaliste dans un studio de radio communautaire au Burkina Faso.",
+        "featured": true,
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "article-civlink",
+        "slug": "civi-link-initiative-en-conception",
+        "title": "CIVI-LINK : une initiative de coordination numérique en phase de conception",
+        "excerpt": "CLEDUCA-ODJ propose CIVI-LINK, un cadre régional de coordination et d’intelligence communautaire fondé sur des données agrégées et une gouvernance partagée.",
+        "body": "## Un enjeu de coordination\n\nLes organisations de la société civile, les services de proximité et les acteurs locaux produisent et détiennent de nombreuses informations utiles. Mais ces informations restent souvent dispersées, ce qui limite la coordination et la visibilité des services disponibles pour les communautés.\n\nCIVI-LINK est une initiative régionale proposée par CLEDUCA-ODJ. Elle est actuellement en phase de conception et son statut opérationnel n’est pas confirmé. Son objectif est de créer un cadre de coordination numérique et d’intelligence communautaire dans les Hauts-Bassins.\n\n## Les principes structurants\n\nLe projet est conçu autour de principes non négociables :\n\n- **Utilité sans dépendance** : l’initiative doit rester utile même sans participation directe des autorités publiques ;\n- **Protection des personnes** : aucune donnée nominative sensible concernant les personnes déplacées ne doit être collectée ou exposée ;\n- **Agrégation** : les informations diffusées doivent rester agrégées et ne pas permettre l’identification individuelle ;\n- **Gouvernance partagée** : les parties prenantes participent à la gouvernance des données ;\n- **Participation communautaire** : les communautés sont au centre du dispositif ;\n- **Usage responsable de l’IA** : toute analyse assistée par l’intelligence artificielle doit rester sélective, encadrée et respectueuse des principes éthiques.\n\n## Une ambition régionale\n\nCIVI-LINK vise à renforcer la coordination entre organisations, à cartographier les services communautaires, à agréger une information fiable et à faciliter la participation et le retour d’information des communautés. L’initiative fera l’objet de publications complémentaires à mesure de l’avancement de sa conception.\n\nToute personne ou organisation intéressée peut contacter CLEDUCA-ODJ via le formulaire du site.",
+        "category": "annonce",
+        "authorName": "Équipe CLEDUCA-ODJ",
+        "publishedAt": "2026-11-17",
+        "tags": [
+          "CIVI-LINK",
+          "coordination",
+          "données",
+          "Hauts-Bassins"
+        ],
+        "projectSlugs": [
+          "civi-link"
+        ],
+        "coverImage": "/images/about-bobo.jpg",
+        "coverAlt": "Vue d’une artère commerçante de Bobo-Dioulasso au Burkina Faso.",
+        "featured": false,
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "article-note-terrain",
+        "slug": "note-de-terrain-ecole-comme-ancrage",
+        "title": "Note de terrain : l’école comme point d’ancrage pour les enfants déplacés",
+        "excerpt": "Ce que documente le dispositif PASEDI : cinq écoles, trois cents élèves accompagnés et une attention concrète à l’inclusion.",
+        "body": "## Une note de terrain, pas un reportage\n\nCette note ne rapporte pas de témoignage individuel. Elle synthétise les éléments documentés du dispositif PASEDI afin d’éclairer la manière dont CLEDUCA-ODJ aborde la continuité éducative. Les histoires personnelles et les photographies de bénéficiaires ne sont publiées qu’avec un consentement approprié.\n\n## Trois cents élèves, cinq établissements\n\nPASEDI accompagne 200 enfants et jeunes déplacés internes et 100 élèves des communautés d’accueil, répartis dans cinq écoles : deux dans les Cascades, trois dans la Boucle du Mouhoun. Le dispositif inclut explicitement les enfants en situation de handicap.\n\nCes chiffres ne résument pas la complexité du travail. Ils indiquent une échelle d’engagement et une ambition : faire de l’école un point d’ancrage pour des enfants dont les repères ont été bouleversés.\n\n## Ce que l’école apporte au-delà des apprentissages\n\nLorsque la scolarité est interrompue, ce n’est pas seulement l’apprentissage qui s’arrête. Le lien avec les pairs, la routine, le sentiment d’appartenance et la confiance dans l’avenir sont également fragilisés. Maintenir un enfant à l’école, c’est préserver un espace de stabilité et de protection.\n\nL’approche de CLEDUCA-ODJ associe les écoles, les familles et les communautés pour construire des réponses adaptées. Elle vise à intégrer les élèves dans les établissements d’accueil et à renforcer la capacité des communautés éducatives à accueillir la diversité des situations.\n\n## Une documentation à poursuivre\n\nLes données disponibles ne permettent pas encore de rendre compte de l’ensemble des résultats du dispositif, de sa période exacte de mise en œuvre ou de ses partenaires. CLEDUCA-ODJ publiera ces informations après vérification, dans un souci de transparence et de redevabilité.",
+        "category": "terrain",
+        "authorName": "Équipe CLEDUCA-ODJ",
+        "publishedAt": "2026-11-17",
+        "tags": [
+          "PASEDI",
+          "éducation",
+          "terrain",
+          "transparence"
+        ],
+        "projectSlugs": [
+          "pasedi"
+        ],
+        "coverImage": "/images/school-garden.jpg",
+        "coverAlt": "Élève arrosant un jardin scolaire dans une communauté rurale du Burkina Faso.",
+        "featured": true,
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "areas": [
+      {
+        "id": "area-education",
+        "slug": "education-alphabetisation",
+        "title": "Éducation et alphabétisation",
+        "shortTitle": "Éducation",
+        "tagline": "Garantir des parcours éducatifs continus, inclusifs et de qualité.",
+        "summary": "CLEDUCA-ODJ agit pour que les enfants et les jeunes dont la scolarité est fragilisée puissent apprendre, rester à l’école et construire un avenir.",
+        "description": "L’éducation est le socle historique de l’engagement de CLEDUCA-ODJ. L’association accompagne les parcours scolaires des enfants et des jeunes exposés à des ruptures : déplacements forcés, précarité des familles, éloignement des services éducatifs ou besoins spécifiques liés au handicap.\n\nNotre approche part des écoles et des communautés. Elle vise à maintenir la continuité des apprentissages, à renforcer l’accueil des élèves dans les établissements et à impliquer les familles dans la réussite éducative. L’alphabétisation des jeunes et des adultes constitue également un levier d’autonomisation et de participation citoyenne.\n\nLe dispositif PASEDI illustre cet engagement : il soutient des enfants et jeunes déplacés internes ainsi que des élèves des communautés d’accueil, dans plusieurs écoles des régions des Cascades et de la Boucle du Mouhoun, en veillant à l’inclusion des enfants en situation de handicap.",
+        "icon": "book-open",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Ruptures de scolarité liées aux déplacements forcés et à l’insécurité",
+          "Difficultés d’accueil et d’intégration des élèves déplacés dans les écoles",
+          "Obstacles spécifiques à la scolarisation des enfants en situation de handicap",
+          "Faible accompagnement des familles dans le suivi des apprentissages"
+        ],
+        "objectives": [
+          "Favoriser la continuité éducative des enfants et des jeunes vulnérables",
+          "Promouvoir une école inclusive qui accueille la diversité des élèves",
+          "Renforcer les capacités des communautés éducatives et des familles",
+          "Valoriser l’alphabétisation comme levier d’autonomisation"
+        ],
+        "audiences": [
+          "Enfants et jeunes déplacés internes",
+          "Élèves des communautés d’accueil",
+          "Enfants en situation de handicap",
+          "Enseignants, parents et communautés éducatives"
+        ],
+        "methodology": "Le travail s’appuie sur les écoles et les communautés locales. Les interventions combinent appui à la scolarisation, mobilisation communautaire, prise en compte des besoins spécifiques et suivi de proximité. La démarche privilégie la participation des enseignants, des familles et des responsables communautaires afin que les solutions soient appropriées localement.",
+        "image": "/images/literacy-class.jpg",
+        "imageAlt": "Bâtiment d’un centre d’alphabétisation en briques, avec toiture et portes vertes, au Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 1,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-youth",
+        "slug": "developpement-autonomisation-jeunes",
+        "title": "Développement et autonomisation des jeunes",
+        "shortTitle": "Jeunesse",
+        "tagline": "Donner aux jeunes les moyens d’agir, de décider et de contribuer.",
+        "summary": "CLEDUCA-ODJ soutient l’autonomie des jeunes, leur participation à la vie communautaire et leur capacité à porter des initiatives utiles à leur territoire.",
+        "description": "La jeunesse burkinabè représente une force majeure pour le développement du pays. Pour que cette énergie se transforme en capacités et en opportunités, les jeunes ont besoin d’espaces d’écoute, de formation, de reconnaissance et de participation réelle aux décisions qui les concernent.\n\nCLEDUCA-ODJ inscrit son action dans une démarche d’autonomisation : renforcer les compétences, encourager la prise d’initiative, faciliter l’engagement citoyen et soutenir les jeunes dans leurs projets personnels et collectifs. L’association veille à inclure les jeunes en situation de vulnérabilité et à promouvoir l’égalité entre les filles et les garçons.\n\nLes initiatives éducatives, numériques et de cohésion sociale de l’association constituent des points d’entrée pour toucher les jeunes là où ils se trouvent : à l’école, dans les quartiers, dans les espaces communautaires et sur les plateformes numériques.",
+        "icon": "youth",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Accès limité à des opportunités de formation et d’accompagnement",
+          "Faible participation des jeunes aux espaces de décision communautaire",
+          "Risques d’exclusion des jeunes les plus vulnérables",
+          "Besoin de reconnaissance et de valorisation des initiatives portées par les jeunes"
+        ],
+        "objectives": [
+          "Renforcer les compétences et la confiance des jeunes",
+          "Encourager la participation citoyenne et l’engagement communautaire",
+          "Soutenir l’émergence et la structuration d’initiatives portées par les jeunes",
+          "Promouvoir l’égalité et l’inclusion entre tous les jeunes"
+        ],
+        "audiences": [
+          "Jeunes des communautés urbaines et rurales",
+          "Filles et jeunes femmes",
+          "Jeunes déplacés internes",
+          "Associations et collectifs de jeunes"
+        ],
+        "methodology": "CLEDUCA-ODJ privilégie des démarches participatives : ateliers de renforcement des capacités, espaces de dialogue, accompagnement de projets et mobilisation communautaire. Les jeunes sont associés à la conception et au suivi des activités afin de garantir leur appropriation et de renforcer leur pouvoir d’agir.",
+        "image": "/images/youth.jpg",
+        "imageAlt": "Jeunes footballeurs en tenue verte rassemblés sur un terrain au Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 2,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-digital",
+        "slug": "education-numerique",
+        "title": "Éducation numérique et citoyenneté responsable",
+        "shortTitle": "Numérique",
+        "tagline": "Faire du numérique un espace d’apprentissage, de sécurité et de citoyenneté.",
+        "summary": "CLEDUCA-ODJ accompagne l’appropriation des outils numériques et promeut des usages responsables, critiques et protecteurs.",
+        "description": "Le numérique transforme l’accès à l’information, les modes d’apprentissage et les formes d’engagement communautaire. Il offre des opportunités considérables, mais expose aussi les jeunes et les communautés à la désinformation, aux risques en ligne et à la mauvaise utilisation des données personnelles.\n\nÀ travers PALVEN, CLEDUCA-ODJ travaille sur l’alphabétisation numérique, la citoyenneté responsable, la sécurité en ligne, la protection des données personnelles, la lutte contre la désinformation et l’engagement des jeunes et des communautés. L’ambition est de permettre à chacun d’utiliser le numérique de manière éclairée, utile et responsable.\n\nL’association aborde la technologie comme un moyen au service du lien social et de l’éducation, et non comme une fin en soi. Une attention particulière est portée à la protection des personnes vulnérables et à la non-divulgation d’informations sensibles.",
+        "icon": "digital",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Accès inégal aux outils et aux compétences numériques",
+          "Circulation de fausses informations et de contenus trompeurs",
+          "Risques liés à la sécurité en ligne et à la protection des données",
+          "Usage du numérique sans accompagnement critique, notamment chez les jeunes"
+        ],
+        "objectives": [
+          "Renforcer les compétences numériques de base des jeunes et des communautés",
+          "Promouvoir la citoyenneté numérique responsable",
+          "Prévenir les risques en ligne et protéger les données personnelles",
+          "Développer l’esprit critique face à la désinformation"
+        ],
+        "audiences": [
+          "Jeunes et adolescents",
+          "Communautés locales",
+          "Acteurs de la société civile",
+          "Parents et encadrants"
+        ],
+        "methodology": "Les interventions combinent sensibilisation, formation pratique, échanges communautaires et production de supports éducatifs. La pédagogie participative permet aux participants d’expérimenter, de questionner leurs usages et de construire des repères concrets pour un numérique responsable et protecteur.",
+        "image": "/images/digital-training.jpg",
+        "imageAlt": "Trois femmes en tenue traditionnelle devant un ordinateur lors d’une session de formation numérique.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 3,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-inclusion",
+        "slug": "inclusion-sociale-handicap",
+        "title": "Inclusion sociale et handicap",
+        "shortTitle": "Inclusion",
+        "tagline": "Construire des communautés qui accueillent et valorisent chacun.",
+        "summary": "L’inclusion sociale est au cœur de l’identité de CLEDUCA-ODJ : chaque personne doit pouvoir participer pleinement à la vie de sa communauté.",
+        "description": "L’inclusion sociale consiste à garantir à chaque personne, quelles que soient ses capacités, son origine ou sa situation, la possibilité de participer à l’éducation, à la vie communautaire et aux décisions qui la concernent. Les enfants et les personnes en situation de handicap restent trop souvent confrontés à des obstacles d’accès et à des représentations discriminantes.\n\nCLEDUCA-ODJ promeut une inclusion concrète, intégrée aux initiatives éducatives et communautaires. Le dispositif PASEDI prend explicitement en compte les enfants en situation de handicap parmi les enfants et jeunes accompagnés. Cette attention se traduit par une approche de proximité, le dialogue avec les familles et la mobilisation des communautés.\n\nL’association inscrit l’inclusion dans une perspective plus large : égalité des chances, respect de la dignité, lutte contre les stigmatisations et reconnaissance de la contribution de chacun au développement local.",
+        "icon": "inclusion",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Obstacles d’accès à l’éducation pour les enfants en situation de handicap",
+          "Stigmatisation et représentations sociales discriminantes",
+          "Manque d’adaptation des dispositifs éducatifs et communautaires",
+          "Faible participation des personnes vulnérables aux espaces de décision"
+        ],
+        "objectives": [
+          "Favoriser l’accès des enfants en situation de handicap à l’éducation",
+          "Lutter contre les stigmatisations et promouvoir la dignité",
+          "Renforcer la participation des personnes vulnérables à la vie communautaire",
+          "Sensibiliser les familles et les communautés à l’inclusion"
+        ],
+        "audiences": [
+          "Enfants et jeunes en situation de handicap",
+          "Familles et proches aidants",
+          "Communautés éducatives",
+          "Acteurs locaux et organisations de la société civile"
+        ],
+        "methodology": "L’inclusion est intégrée aux initiatives de CLEDUCA-ODJ plutôt que traitée isolément. Les actions reposent sur le dialogue avec les familles, la mobilisation communautaire, l’adaptation des approches éducatives et la prise en compte des besoins spécifiques dans la conception des activités.",
+        "image": "/images/school-garden.jpg",
+        "imageAlt": "Élève arrosant un jardin scolaire dans une communauté rurale du Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 4,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-gender",
+        "slug": "egalite-genre-femmes",
+        "title": "Égalité de genre et autonomisation des femmes",
+        "shortTitle": "Genre",
+        "tagline": "Promouvoir les droits, la voix et l’autonomie des femmes et des filles.",
+        "summary": "CLEDUCA-ODJ agit pour l’égalité entre les femmes et les hommes et contre les violences fondées sur le genre.",
+        "description": "L’égalité de genre est une condition du développement durable et de la cohésion sociale. Les femmes et les filles continuent de faire face à des inégalités d’accès aux ressources, à l’information, aux instances de décision et à la justice, ainsi qu’à des formes de violence qui limitent leur autonomie.\n\nCLEDUCA-ODJ aborde ces enjeux à travers l’éducation, la sensibilisation juridique et la mobilisation communautaire. L’initiative Justice de proximité – Guiriko accorde une attention particulière aux droits des femmes et des filles, à la prévention des violences basées sur le genre et à la médiation communautaire.\n\nL’association cherche à renforcer la capacité des femmes à connaître leurs droits, à s’exprimer et à participer aux décisions, tout en travaillant avec les communautés et les acteurs locaux pour faire évoluer les normes qui favorisent les inégalités.",
+        "icon": "gender",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Inégalités d’accès à l’information juridique et aux services de protection",
+          "Persistance des violences basées sur le genre",
+          "Faible représentation des femmes dans les espaces de décision",
+          "Normes sociales limitant l’autonomie des femmes et des filles"
+        ],
+        "objectives": [
+          "Renforcer la connaissance et l’exercice des droits des femmes et des filles",
+          "Contribuer à la prévention des violences basées sur le genre",
+          "Favoriser la participation des femmes à la vie communautaire et aux décisions",
+          "Sensibiliser les communautés à l’égalité de genre"
+        ],
+        "audiences": [
+          "Femmes et filles",
+          "Communautés locales",
+          "Leaders communautaires et religieux",
+          "Acteurs de la justice et du secteur social"
+        ],
+        "methodology": "Les actions reposent sur la sensibilisation communautaire, l’information juridique de proximité, la médiation et la production de supports éducatifs. CLEDUCA-ODJ travaille avec les femmes, les familles et les acteurs locaux pour créer des espaces de dialogue et renforcer les mécanismes communautaires de protection.",
+        "image": "/images/women-cooperative.jpg",
+        "imageAlt": "Femmes transformant des noix de karité dans un cadre coopératif au Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 5,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-psychosocial",
+        "slug": "soutien-psychosocial-sante",
+        "title": "Soutien psychosocial et santé communautaire",
+        "shortTitle": "Bien-être",
+        "tagline": "Prendre soin du lien, de la dignité et du bien-être des communautés.",
+        "summary": "Domaine de positionnement institutionnel : CLEDUCA-ODJ reconnaît la dimension psychosociale du développement et du bien-être communautaire.",
+        "description": "Les crises et les vulnérabilités affectent profondément le bien-être psychologique et social des personnes et des communautés. Le soutien psychosocial et la santé communautaire constituent des dimensions essentielles de toute démarche de développement durable.\n\nCLEDUCA-ODJ identifie ce domaine comme un axe de positionnement institutionnel, en cohérence avec son approche communautaire et inclusive. Aucune intervention active n’est revendiquée à ce stade sur le site. Les activités éventuellement menées dans ce domaine seront publiées après vérification et documentation.\n\nL’association veille déjà à intégrer une attention à la dignité, à l’écoute et au bien-être dans ses initiatives éducatives, numériques et de cohésion sociale, sans se substituer aux services spécialisés.",
+        "icon": "wellbeing",
+        "status": "positioning",
+        "statusNote": "Domaine de positionnement institutionnel : aucune intervention active n’est revendiquée à ce stade. Les activités seront publiées après vérification.",
+        "challenges": [
+          "Impact des crises et des déplacements sur le bien-être des personnes",
+          "Faible accès aux services de soutien psychosocial dans certaines zones",
+          "Stigmatisation des personnes en difficulté psychologique",
+          "Besoin de renforcement des mécanismes communautaires d’écoute et d’entraide"
+        ],
+        "objectives": [
+          "Reconnaître la dimension psychosociale du développement communautaire",
+          "Promouvoir l’écoute, la dignité et le soutien mutuel dans les interventions",
+          "Documenter les besoins et les réponses possibles avec les acteurs spécialisés",
+          "Éviter toute substitution aux services de santé spécialisés"
+        ],
+        "audiences": [
+          "Personnes affectées par les crises",
+          "Jeunes et familles vulnérables",
+          "Communautés d’accueil",
+          "Acteurs de la santé et du secteur social"
+        ],
+        "methodology": "Ce domaine reste en phase de positionnement. Toute intervention future serait développée en partenariat avec des acteurs compétents, dans le respect des principes de consentement, de confidentialité et de non-stigmatisation.",
+        "image": "/images/community-gathering.jpg",
+        "imageAlt": "Séance communautaire en plein air au Burkina Faso, avec une intervenante face aux participants.",
+        "featured": false,
+        "published": true,
+        "sortOrder": 6,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-cohesion",
+        "slug": "cohesion-sociale-prevention-conflits",
+        "title": "Cohésion sociale et prévention des conflits",
+        "shortTitle": "Cohésion sociale",
+        "tagline": "Renforcer le dialogue, la confiance et la résolution pacifique des différends.",
+        "summary": "CLEDUCA-ODJ favorise le dialogue entre les communautés et les mécanismes pacifiques de prévention et de gestion des conflits.",
+        "description": "La cohésion sociale est indispensable à la stabilité et au développement des communautés. Les tensions liées aux déplacements, à l’accès aux ressources, aux inégalités ou à la désinformation peuvent fragiliser la confiance et les mécanismes traditionnels de régulation.\n\nCLEDUCA-ODJ aborde la cohésion sociale à travers l’éducation, l’information et la médiation communautaire. L’initiative Justice de proximité – Guiriko soutient la prévention des conflits et la médiation, tandis que PALVEN traite des enjeux de désinformation et de citoyenneté numérique qui peuvent affecter le lien social.\n\nL’association privilégie une approche de proximité, fondée sur l’écoute des communautés, la reconnaissance des mécanismes locaux et la construction de ponts entre les différents acteurs du territoire.",
+        "icon": "cohesion",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Tensions sociales liées aux déplacements et à la pression sur les ressources",
+          "Fragilisation des mécanismes traditionnels de dialogue",
+          "Effets de la désinformation sur la confiance entre communautés",
+          "Besoin d’espaces inclusifs de dialogue et de médiation"
+        ],
+        "objectives": [
+          "Renforcer le dialogue et la confiance entre les communautés",
+          "Prévenir les conflits par l’information et la médiation",
+          "Soutenir les mécanismes communautaires de résolution pacifique",
+          "Promouvoir une information fiable et responsable"
+        ],
+        "audiences": [
+          "Communautés hôtes et communautés déplacées",
+          "Leaders communautaires et religieux",
+          "Jeunes et femmes",
+          "Acteurs locaux de la médiation et de la justice"
+        ],
+        "methodology": "Les actions s’appuient sur la médiation, la sensibilisation, les espaces de dialogue communautaire et la production de contenus informatifs. CLEDUCA-ODJ associe les leaders locaux et les communautés à l’identification des tensions et à la construction de réponses durables.",
+        "image": "/images/local-market.jpg",
+        "imageAlt": "Marché alimentaire traditionnel animé, lieu de vie et d’échanges communautaires au Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 7,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-justice",
+        "slug": "acces-justice-droits-humains",
+        "title": "Accès à la justice et droits humains",
+        "shortTitle": "Justice",
+        "tagline": "Rapprocher le droit des communautés et défendre les droits fondamentaux.",
+        "summary": "CLEDUCA-ODJ œuvre pour une information juridique accessible et une meilleure connaissance des droits par les communautés.",
+        "description": "L’accès à la justice ne se limite pas à la présence d’un tribunal. Il suppose que chacun puisse connaître ses droits, comprendre les procédures, être écouté et trouver une réponse adaptée à sa situation. Pour de nombreuses personnes, l’éloignement des services, le coût, la complexité ou la méconnaissance du droit constituent des obstacles majeurs.\n\nL’initiative Justice de proximité – Guiriko traduit l’engagement de CLEDUCA-ODJ en faveur d’un droit plus accessible. Elle combine information juridique, sensibilisation, prévention des violences basées sur le genre, médiation communautaire, activités mobiles d’information juridique et capsules vidéo éducatives.\n\nL’association agit dans une logique de proximité et de complémentarité avec les institutions et les acteurs compétents, en veillant au respect de la confidentialité et de la dignité des personnes.",
+        "icon": "justice",
+        "status": "documented",
+        "statusNote": "Ce domaine est documenté par au moins une initiative présentée dans le portefeuille institutionnel.",
+        "challenges": [
+          "Éloignement géographique et complexité des services juridictionnels",
+          "Méconnaissance des droits et des procédures",
+          "Coût et lenteur des démarches pour les personnes vulnérables",
+          "Besoin d’information juridique en langues accessibles"
+        ],
+        "objectives": [
+          "Rapprocher l’information juridique des communautés",
+          "Renforcer la connaissance des droits, en particulier des femmes et des filles",
+          "Prévenir les violences basées sur le genre",
+          "Soutenir la médiation et la résolution pacifique des différends"
+        ],
+        "audiences": [
+          "Femmes et filles",
+          "Communautés rurales et périurbaines",
+          "Personnes en situation de vulnérabilité",
+          "Leaders communautaires et acteurs de la justice"
+        ],
+        "methodology": "L’approche combine activités mobiles d’information juridique, sensibilisation communautaire, médiation et capsules vidéo éducatives. Les contenus sont conçus pour être accessibles et adaptés aux réalités locales, avec une attention particulière à la protection des personnes et à la confidentialité des situations individuelles.",
+        "image": "/images/community-radio.jpg",
+        "imageAlt": "Journaliste dans un studio de radio communautaire au Burkina Faso.",
+        "featured": true,
+        "published": true,
+        "sortOrder": 8,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "area-resilience",
+        "slug": "resilience-communautaire-developpement-durable",
+        "title": "Résilience communautaire et développement durable",
+        "shortTitle": "Résilience",
+        "tagline": "Renforcer la capacité des communautés à anticiper, s’adapter et agir.",
+        "summary": "Domaine de positionnement institutionnel : CLEDUCA-ODJ inscrit son action dans une perspective de durabilité et de résilience des communautés.",
+        "description": "La résilience communautaire désigne la capacité des communautés à faire face aux chocs, à s’adapter et à construire des réponses durables à partir de leurs propres ressources et de leurs réseaux de solidarité. Elle rejoint les valeurs de solidarité, de participation et de développement durable portées par CLEDUCA-ODJ.\n\nCe domaine constitue un axe de positionnement institutionnel. Aucune intervention active spécifiquement identifiée sous cette thématique n’est revendiquée à ce stade sur le site. Les initiatives qui y contribuent, notamment en éducation, en inclusion et en cohésion sociale, sont présentées dans leurs domaines respectifs.\n\nL’association souhaite renforcer progressivement la documentation de ses contributions à la résilience locale et développer des partenariats avec les acteurs du développement durable.",
+        "icon": "resilience",
+        "status": "positioning",
+        "statusNote": "Domaine de positionnement institutionnel : aucune intervention active spécifiquement identifiée n’est revendiquée à ce stade.",
+        "challenges": [
+          "Exposition des communautés aux chocs climatiques et sécuritaires",
+          "Pression sur les ressources naturelles et les services de base",
+          "Fragilité des moyens d’existence de nombreux ménages",
+          "Besoin de renforcement des capacités locales d’anticipation et d’adaptation"
+        ],
+        "objectives": [
+          "Intégrer la durabilité dans la conception des initiatives communautaires",
+          "Renforcer les capacités locales d’organisation et de solidarité",
+          "Documenter les contributions à la résilience des communautés",
+          "Développer des partenariats avec les acteurs du développement durable"
+        ],
+        "audiences": [
+          "Communautés rurales et périurbaines",
+          "Organisations communautaires de base",
+          "Jeunes et femmes porteurs d’initiatives",
+          "Collectivités et acteurs du développement local"
+        ],
+        "methodology": "Ce domaine reste en phase de positionnement. Les futurs projets privilégieront la participation communautaire, la valorisation des savoirs locaux, la durabilité des actions et la complémentarité avec les autres domaines d’intervention de CLEDUCA-ODJ.",
+        "image": "/images/community-resilience.jpg",
+        "imageAlt": "Femmes construisant collectivement des diguettes anti-érosives dans un champ au Burkina Faso.",
+        "featured": false,
+        "published": true,
+        "sortOrder": 9,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "publications": [],
+    "partners": [],
+    "indicators": [
+      {
+        "id": "indicator-pasedi-idp",
+        "label": "Enfants et jeunes déplacés internes accompagnés",
+        "value": 200,
+        "unit": "personnes",
+        "category": "beneficiaires",
+        "description": "Bénéficiaires documentés du dispositif PASEDI de continuité éducative.",
+        "source": "Fiche de présentation PASEDI — informations institutionnelles fournies",
+        "periodLabel": "PASEDI — période à confirmer",
+        "verified": true,
+        "published": true,
+        "sortOrder": 1,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-pasedi-host",
+        "label": "Élèves des communautés d’accueil accompagnés",
+        "value": 100,
+        "unit": "élèves",
+        "category": "beneficiaires",
+        "description": "Élèves des communautés d’accueil concernés par le dispositif PASEDI.",
+        "source": "Fiche de présentation PASEDI — informations institutionnelles fournies",
+        "periodLabel": "PASEDI — période à confirmer",
+        "verified": true,
+        "published": true,
+        "sortOrder": 2,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-pasedi-schools",
+        "label": "Écoles mobilisées",
+        "value": 5,
+        "unit": "écoles",
+        "category": "education",
+        "description": "Deux écoles dans la région des Cascades et trois dans la Boucle du Mouhoun.",
+        "source": "Fiche de présentation PASEDI — informations institutionnelles fournies",
+        "periodLabel": "PASEDI — période à confirmer",
+        "verified": true,
+        "published": true,
+        "sortOrder": 3,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-coverage-regions",
+        "label": "Régions d’intervention documentées",
+        "value": 2,
+        "unit": "régions",
+        "category": "couverture",
+        "description": "Les Cascades et la Boucle du Mouhoun, dans le cadre du dispositif PASEDI.",
+        "source": "Fiche de présentation PASEDI — informations institutionnelles fournies",
+        "periodLabel": "PASEDI — période à confirmer",
+        "verified": true,
+        "published": true,
+        "sortOrder": 4,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-portfolio",
+        "label": "Initiatives documentées sur le site",
+        "value": 4,
+        "unit": "initiatives",
+        "category": "projets",
+        "description": "PASEDI, PALVEN, Justice de proximité – Guiriko et CIVI-LINK (proposée).",
+        "source": "Portefeuille institutionnel présenté sur le site",
+        "periodLabel": "État au 17 novembre 2026",
+        "verified": true,
+        "published": true,
+        "sortOrder": 5,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-years",
+        "label": "Années d’engagement communautaire",
+        "value": 29,
+        "unit": "années",
+        "category": "institutionnel",
+        "description": "Calculées depuis la création de l’association en 1997 jusqu’en 2026.",
+        "source": "Année de création communiquée par l’association",
+        "periodLabel": "1997 — 2026",
+        "verified": true,
+        "published": true,
+        "sortOrder": 6,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "indicator-partners",
+        "label": "Organisations partenaires publiées",
+        "value": null,
+        "unit": "organisations",
+        "category": "partenaires",
+        "description": "Aucun partenariat n’est publié tant que son autorisation et sa vérification ne sont pas établies. Cette rubrique sera actualisée par l’association.",
+        "source": "Documentation des partenariats en cours",
+        "periodLabel": "Donnée non disponible",
+        "verified": false,
+        "published": true,
+        "sortOrder": 7,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "reportingPeriods": [
+      {
+        "id": "period-pasedi",
+        "label": "PASEDI — période à confirmer",
+        "startsOn": "",
+        "endsOn": "",
+        "description": "Les données PASEDI présentées sur le site proviennent des informations institutionnelles fournies. La période exacte de mise en œuvre reste à confirmer par l’association.",
+        "sourceDocument": "Fiche de présentation du dispositif PASEDI",
+        "published": true,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "period-portfolio-2026",
+        "label": "Portefeuille institutionnel — état au 17 novembre 2026",
+        "startsOn": "2026-11-17",
+        "endsOn": "2026-11-17",
+        "description": "Recensement des initiatives présentées sur le site à la date de sa mise en ligne.",
+        "sourceDocument": "Contenu institutionnel du site CLEDUCA-ODJ",
+        "published": true,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "milestone-1997",
+        "year": "1997",
+        "title": "Création de CLEDUCA-ODJ",
+        "description": "Le Club d’Éducation Actuelle – Organisation pour le Développement de la Jeunesse est créé au Burkina Faso en tant qu’organisation de la société civile à but non lucratif.",
+        "source": "Information institutionnelle fournie par l’association",
+        "verified": true,
+        "published": true,
+        "sortOrder": 1,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "milestone-today",
+        "year": "Aujourd’hui",
+        "title": "Un portefeuille d’initiatives au service des communautés",
+        "description": "L’association documente plusieurs initiatives en éducation, inclusion, éducation numérique, justice de proximité et coordination communautaire, tout en poursuivant la consolidation de ses données et de ses partenariats.",
+        "source": "Portefeuille institutionnel présenté sur le site",
+        "verified": true,
+        "published": true,
+        "sortOrder": 2,
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "testimonials": [],
+    "events": [],
+    "pages": [
+      {
+        "id": "page-confidentialite",
+        "slug": "confidentialite",
+        "title": "Politique de confidentialité",
+        "eyebrow": "Protection des données",
+        "intro": "Cette politique décrit les données personnelles collectées par le site institutionnel de CLEDUCA-ODJ, les raisons de leur collecte et les droits dont disposent les personnes concernées.",
+        "sections": [
+          {
+            "id": "responsable",
+            "title": "Responsable du traitement",
+            "body": "Le responsable du traitement est CLEDUCA-ODJ, organisation de la société civile à but non lucratif basée à Bobo-Dioulasso, Burkina Faso.\n\nLes coordonnées complètes du responsable du traitement, les références de reconnaissance légale et les coordonnées du délégué à la protection des données (le cas échéant) seront publiées après validation par l’association. En attendant, toute question relative à la protection des données peut être adressée via le formulaire de contact du site."
+          },
+          {
+            "id": "donnees",
+            "title": "Données collectées",
+            "body": "Le site collecte uniquement les données nécessaires à son fonctionnement et aux échanges avec le public :\n\n- **Formulaire de contact** : nom, adresse e-mail, organisation (facultative), type de demande, contenu du message et consentement.\n- **Inscription à la lettre d’information** : adresse e-mail, nom (facultatif), source de l’inscription et date de consentement.\n- **Protection contre les abus** : adresse IP hachée, date et heure de soumission, afin de limiter les envois automatisés et malveillants.\n- **Espace d’administration** : adresse e-mail, rôle, journaux de connexion et d’activité des personnes autorisées.\n\nLe site ne collecte pas de dossiers individuels de bénéficiaires. Il n’expose aucune information sensible concernant des personnes déplacées, des femmes, des enfants ou des personnes en situation de handicap."
+          },
+          {
+            "id": "finalites",
+            "title": "Finalités et bases légales",
+            "body": "Les données sont traitées pour les finalités suivantes :\n\n- répondre aux demandes d’information, de partenariat, de bénévolat et de collaboration ;\n- gérer les inscriptions à la lettre d’information, sur la base du consentement ;\n- assurer la sécurité du site et prévenir les abus ;\n- administrer les contenus et produire des statistiques internes agrégées.\n\nLes bases légales invoquées sont le consentement de la personne, l’intérêt légitime de l’association à répondre à ses interlocuteurs et à sécuriser ses services, ainsi que le respect d’obligations légales lorsqu’elles s’appliquent."
+          },
+          {
+            "id": "destinataires",
+            "title": "Destinataires et sous-traitants",
+            "body": "Les données sont accessibles uniquement aux personnes habilitées de CLEDUCA-ODJ et aux prestataires techniques nécessaires au fonctionnement du site, notamment l’hébergement (Vercel) et la base de données, le stockage et l’authentification (Supabase). Un service d’envoi d’e-mails peut être utilisé pour les notifications de contact lorsqu’il est configuré.\n\nCes prestataires agissent sur instruction de l’association et dans le cadre de leurs engagements contractuels. Les données ne sont ni vendues ni cédées à des fins commerciales. Les données peuvent être hébergées en dehors du Burkina Faso ; l’association veille à ce que des garanties appropriées encadrent ces transferts."
+          },
+          {
+            "id": "conservation",
+            "title": "Durées de conservation",
+            "body": "Les durées de conservation retenues sont les suivantes :\n\n- **Messages de contact** : 12 mois après la clôture de la demande, puis suppression ou anonymisation, sauf obligation légale contraire ;\n- **Abonnés à la lettre d’information** : jusqu’au retrait du consentement ou à la désinscription ;\n- **Journaux anti-abus** : 90 jours ;\n- **Journaux d’administration** : 12 mois ;\n- **Comptes administrateurs** : pendant la durée d’exercice des fonctions, puis suppression ou anonymisation.\n\nCes durées pourront être ajustées par l’association dans le cadre de sa politique interne de conservation."
+          },
+          {
+            "id": "droits",
+            "title": "Vos droits",
+            "body": "Vous disposez notamment des droits suivants :\n\n- accéder aux données vous concernant ;\n- demander la rectification ou l’effacement de vos données ;\n- demander la limitation du traitement ;\n- vous opposer au traitement ;\n- retirer votre consentement à tout moment, sans remettre en cause la licéité des traitements antérieurs ;\n- introduire une réclamation auprès de l’autorité compétente de protection des données.\n\nPour exercer ces droits, utilisez le formulaire de contact en précisant l’objet de votre demande. Une vérification d’identité peut être demandée. L’association s’engage à répondre dans un délai raisonnable et, lorsque la réglementation le prévoit, dans un délai maximal de 30 jours."
+          },
+          {
+            "id": "securite",
+            "title": "Sécurité et confidentialité",
+            "body": "CLEDUCA-ODJ met en œuvre des mesures techniques et organisationnelles adaptées : accès administratif authentifié et limité par rôle, politiques de sécurité au niveau des données, validation des entrées, protection contre les abus, chiffrement des communications et journalisation des opérations sensibles.\n\nAucun système ne peut garantir une sécurité absolue. En cas d’incident susceptible d’affecter les droits des personnes, l’association prendra les mesures nécessaires et informera les personnes concernées lorsque la réglementation l’exige."
+          },
+          {
+            "id": "vulnerables",
+            "title": "Personnes vulnérables et images",
+            "body": "Le site ne publie pas de dossiers individuels ni d’informations permettant d’identifier des bénéficiaires vulnérables. Les photographies de bénéficiaires et les témoignages ne sont publiés qu’après obtention d’un consentement approprié et dans le respect des principes de dignité et de protection de l’enfance.\n\nLes photographies actuellement utilisées sur le site sont des photographies d’illustration sous licence libre, créditées sur la page des crédits photographiques. Elles ne représentent pas nécessairement des activités de CLEDUCA-ODJ."
+          },
+          {
+            "id": "modifications",
+            "title": "Modifications",
+            "body": "Cette politique peut être mise à jour pour tenir compte de l’évolution des services, des obligations légales ou des pratiques de l’association. La date de dernière mise à jour est affichée sur la page."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "page-cookies",
+        "slug": "cookies",
+        "title": "Politique de cookies",
+        "eyebrow": "Cookies et traceurs",
+        "intro": "Le site CLEDUCA-ODJ utilise uniquement les cookies strictement nécessaires à son fonctionnement et à la sécurité de son espace d’administration.",
+        "sections": [
+          {
+            "id": "principe",
+            "title": "Notre approche",
+            "body": "Le site ne dépose à ce jour aucun cookie publicitaire, aucun cookie de réseaux sociaux et aucun traceur de mesure d’audience. Aucun consentement préalable n’est donc requis pour les cookies strictement nécessaires.\n\nSi des outils de mesure d’audience ou des services tiers étaient ajoutés ultérieurement, cette politique serait mise à jour et, le cas échéant, un mécanisme de consentement serait mis en place."
+          },
+          {
+            "id": "cookies-utilises",
+            "title": "Cookies utilisés",
+            "body": "Les cookies suivants peuvent être déposés :\n\n- **Cookies d’authentification de l’administration** : ils permettent aux personnes autorisées de rester connectées à l’espace d’administration et de sécuriser leur session. Ils ne concernent pas le public.\n- **Cookies techniques** : le cas échéant, ils assurent le bon fonctionnement du site et la protection des formulaires.\n\nCes cookies ne sont pas utilisés pour profiler les visiteurs ni pour diffuser de la publicité."
+          },
+          {
+            "id": "gestion",
+            "title": "Gérer les cookies",
+            "body": "Vous pouvez configurer votre navigateur pour bloquer ou supprimer les cookies. Le blocage des cookies techniques peut affecter le fonctionnement de certaines fonctionnalités, notamment l’accès à l’administration.\n\nLes paramètres de gestion des cookies varient selon les navigateurs. Consultez la rubrique d’aide de votre navigateur pour plus d’informations."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "page-mentions",
+        "slug": "mentions-legales",
+        "title": "Mentions légales",
+        "eyebrow": "Informations institutionnelles",
+        "intro": "Informations relatives à l’éditeur du site, à son hébergement et aux conditions d’utilisation.",
+        "sections": [
+          {
+            "id": "editeur",
+            "title": "Éditeur du site",
+            "body": "Le présent site est édité par **CLEDUCA-ODJ** — Club d’Éducation Actuelle – Organisation pour le Développement de la Jeunesse.\n\nOrganisation de la société civile à but non lucratif, légalement reconnue, créée en 1997.\nSiège : Bobo-Dioulasso, Hauts-Bassins, Burkina Faso.\n\n**Numéro de reconnaissance légale** : à compléter par l’association.\n**Adresse postale complète** : à compléter par l’association.\n**Téléphone** : à compléter par l’association.\n**Adresse e-mail de contact** : à compléter par l’association.\n**Directeur de la publication** : à compléter par l’association."
+          },
+          {
+            "id": "hebergement",
+            "title": "Hébergement",
+            "body": "Le site est hébergé par Vercel Inc. La base de données, le stockage de fichiers et l’authentification des administrateurs sont assurés par Supabase.\n\nLes coordonnées complètes des prestataires et les informations relatives aux transferts de données sont précisées dans la politique de confidentialité."
+          },
+          {
+            "id": "propriete",
+            "title": "Propriété intellectuelle",
+            "body": "Le logo, les textes institutionnels, l’identité visuelle et les contenus produits par CLEDUCA-ODJ sont protégés par le droit de la propriété intellectuelle. Toute reproduction ou adaptation nécessite l’autorisation préalable de l’association, sauf mention contraire.\n\nLes photographies utilisées sous licence libre sont créditées et soumises aux conditions de leur licence respective, précisées sur la page des crédits photographiques."
+          },
+          {
+            "id": "responsabilite",
+            "title": "Responsabilité et liens",
+            "body": "CLEDUCA-ODJ s’efforce de fournir des informations exactes et à jour. Les contenus sont fournis à titre informatif et peuvent être modifiés. L’association ne saurait être tenue responsable des dommages résultant d’une utilisation du site ou de l’indisponibilité temporaire du service.\n\nLe site peut contenir des liens vers des sites tiers. CLEDUCA-ODJ n’exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu."
+          },
+          {
+            "id": "droit",
+            "title": "Droit applicable",
+            "body": "Le présent site est soumis au droit burkinabè. Toute difficulté relative à son utilisation sera soumise aux juridictions compétentes, sous réserve des règles impératives applicables."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "page-accessibilite",
+        "slug": "accessibilite",
+        "title": "Déclaration d’accessibilité",
+        "eyebrow": "Accessibilité numérique",
+        "intro": "CLEDUCA-ODJ souhaite rendre son site accessible au plus grand nombre, y compris aux personnes en situation de handicap et aux utilisateurs disposant de connexions limitées.",
+        "sections": [
+          {
+            "id": "engagement",
+            "title": "Notre engagement",
+            "body": "L’accessibilité numérique est cohérente avec les valeurs d’inclusion de CLEDUCA-ODJ. Le site est conçu pour être lisible, navigable au clavier, compatible avec les lecteurs d’écran et utilisable sur téléphone, tablette et ordinateur.\n\nLes efforts portent notamment sur la structure sémantique des pages, les contrastes de couleurs, les textes alternatifs des images, la clarté des formulaires et le respect des préférences de réduction des animations."
+          },
+          {
+            "id": "limites",
+            "title": "Limites connues",
+            "body": "Le site n’a pas encore fait l’objet d’un audit d’accessibilité externe. Certains contenus tiers, documents PDF ou images provenant de sources externes peuvent ne pas respecter l’ensemble des critères d’accessibilité.\n\nLes documents publiés dans le centre de ressources sont fournis dans leur format d’origine. Une version accessible peut être demandée à l’association lorsque cela est possible."
+          },
+          {
+            "id": "retour",
+            "title": "Signaler un problème",
+            "body": "Si vous rencontrez une difficulté d’accès à une page, un contenu ou un service, utilisez le formulaire de contact en précisant la page concernée et la nature du problème. CLEDUCA-ODJ s’efforcera de proposer une alternative dans les meilleurs délais."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "page-gouvernance",
+        "slug": "gouvernance",
+        "title": "Gouvernance et redevabilité",
+        "eyebrow": "Institution",
+        "intro": "CLEDUCA-ODJ est une organisation à but non lucratif dotée d’une gouvernance associative. Cette page présente les principes de redevabilité de l’association et sera complétée avec ses documents statutaires validés.",
+        "sections": [
+          {
+            "id": "principes",
+            "title": "Principes de gouvernance",
+            "body": "La gouvernance de CLEDUCA-ODJ s’inscrit dans le cadre d’une organisation associative à but non lucratif. Elle repose sur des principes de collégialité, de séparation des fonctions, de transparence et de redevabilité envers les membres, les communautés et les partenaires.\n\nLes décisions institutionnelles doivent pouvoir être documentées, expliquées et suivies. Les responsabilités sont réparties entre les instances de l’association et la coordination opérationnelle, dans le respect des statuts et du règlement intérieur."
+          },
+          {
+            "id": "instances",
+            "title": "Instances et composition",
+            "body": "La composition des instances, la durée des mandats, les responsabilités de chacun et les modalités de renouvellement seront publiées après validation par l’association.\n\nAucune information nominative relative aux membres des instances n’est publiée sans leur accord."
+          },
+          {
+            "id": "redevabilite",
+            "title": "Redevabilité et transparence",
+            "body": "L’association s’engage à documenter ses projets, à publier ses résultats vérifiés et à indiquer clairement la source et la période de ses indicateurs. Les rapports institutionnels et financiers seront rendus publics lorsque leur publication sera autorisée.\n\nLe site distingue explicitement les initiatives documentées, les initiatives en développement et les initiatives proposées. Les informations dont la vérification est incomplète sont signalées comme telles."
+          },
+          {
+            "id": "documents",
+            "title": "Documents institutionnels",
+            "body": "Les statuts, le règlement intérieur, les rapports d’activité, les rapports financiers et les politiques internes seront publiés dans le centre de ressources après validation et, le cas échéant, autorisation des organes compétents.\n\nLes documents manquants ne sont pas remplacés par des contenus fictifs. Ils restent identifiés comme « à publier » jusqu’à leur mise à disposition."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "page-credits",
+        "slug": "credits-photographiques",
+        "title": "Crédits photographiques",
+        "eyebrow": "Transparence éditoriale",
+        "intro": "Les photographies utilisées sur le site sont des photographies d’illustration sous licence libre. Elles ne représentent pas nécessairement des activités de CLEDUCA-ODJ et ne constituent pas des portraits de bénéficiaires de l’association.",
+        "sections": [
+          {
+            "id": "photographies",
+            "title": "Photographies",
+            "body": "Les images sont issues de Wikimedia Commons et utilisées conformément à leurs licences respectives. Chaque titre renvoie à la page source, qui précise l’auteur, la licence et les conditions d’attribution :\n\n- **[Dourtenga school](https://commons.wikimedia.org/wiki/File:Dourtenga_school.JPG)** — KKB, CC BY-SA 4.0. École primaire à Dourtenga, Burkina Faso.\n- **[Speaking out: Peer educators advocate for an end to FGM/C](https://commons.wikimedia.org/wiki/File:Speaking_out-_Peer_educators_advocate_for_an_end_to_FGM-C_(12324137973).jpg)** — DFID, CC BY 2.0.\n- **[Bobo-Dioulasso (12568251584)](https://commons.wikimedia.org/wiki/File:Bobo-Dioulasso_(12568251584).jpg)** — Maarten van der Bent, CC BY-SA 2.0.\n- **[Centre d’alphabétisation de Sam](https://commons.wikimedia.org/wiki/File:Centre_d%27alphab%C3%A9tisation_de_Sam.jpg)** — Le Soleil dans la Main, CC BY-SA 4.0.\n- **[Focus Groups National Network meetings IMG 4584](https://commons.wikimedia.org/wiki/File:Focus_Groups_National_Network_meetings_IMG_4584_(5348190395).jpg)** — IICD, CC BY 2.0.\n- **[Shea nut processing in Burkina Faso](https://commons.wikimedia.org/wiki/File:Shea_nut_processing_in_Burkina_Faso.jpg)** — TREEAID, CC BY 2.0.\n- **[Construction de diguettes par des femmes au Burkina Faso](https://commons.wikimedia.org/wiki/File:Construction_de_diguettes_par_des_femmes_au_Burkina_Faso.jpg)** — Hadepté, CC BY-SA 4.0.\n- **[Teenage Footballers somewhere in Burkina Faso](https://commons.wikimedia.org/wiki/File:Teenage_Footballers_somewhere_in_Burkina_Faso.jpg)** — Elodie Ouelo, CC BY-SA 4.0.\n- **[Gando school garden](https://commons.wikimedia.org/wiki/File:Gando_school_garden.jpg)** — Kéré Architecture, CC BY-SA 3.0.\n- **[Un puits au Burkina Faso](https://commons.wikimedia.org/wiki/File:Un_puits_au_Burkina_Faso.jpg)** — Moorelangue, CC0.\n- **[Journaliste radio](https://commons.wikimedia.org/wiki/File:Journaliste_radio.jpg)** — BuduMC, CC BY-SA 4.0.\n- **[Vendeuse d’arachides](https://commons.wikimedia.org/wiki/File:Vendeuse_d%27arachides.jpg)** — Roman Bonnefoy (Romanceor), CC BY-SA 3.0.\n- **[Traditional food market in Logobou, Burkina Faso](https://commons.wikimedia.org/wiki/File:Traditional_food_market_in_Logobou,_Burkina_Faso.jpg)** — Ye Shan, CC BY-SA 4.0.\n\nLes images ont uniquement été redimensionnées et recompressées pour le web ; leur cadrage d’origine est conservé. Les textes complets des licences sont consultables sur le site de [Creative Commons](https://creativecommons.org/licenses/), et le fichier CREDITS.md du dépôt du site récapitule ces attributions ainsi que les usages correspondants."
+          },
+          {
+            "id": "logo",
+            "title": "Logo et identité visuelle",
+            "body": "Le logo de CLEDUCA-ODJ est utilisé tel qu’il a été fourni par l’association, sans redessin ni déformation. Toute adaptation ou déclinaison doit faire l’objet d’une autorisation préalable."
+          },
+          {
+            "id": "consentement",
+            "title": "Consentement et dignité",
+            "body": "Les photographies de bénéficiaires, de témoignages et de situations identifiantes ne doivent être publiées qu’après obtention d’un consentement éclairé et dans le respect des règles de protection des personnes vulnérables.\n\nLes images actuellement utilisées sont des photographies documentaires publiées sous licence libre par des tiers. Si une personne représentée souhaite le retrait d’une image, l’association examinera la demande avec attention."
+          }
+        ],
+        "status": "published",
+        "createdAt": "2026-11-17T00:00:00.000Z",
+        "updatedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-community-gathering",
+        "fileName": "community-gathering.jpg",
+        "url": "/images/community-gathering.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Séance de sensibilisation communautaire en plein air au Burkina Faso, animée par une femme devant un groupe de participants.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-hero-classroom",
+        "fileName": "hero-classroom.jpg",
+        "url": "/images/hero-classroom.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Élèves dans une salle de classe au Burkina Faso, devant un tableau noir couvert d’inscriptions.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-literacy-class",
+        "fileName": "literacy-class.jpg",
+        "url": "/images/literacy-class.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Bâtiment d’un centre d’alphabétisation en briques avec une toiture et des portes vertes, au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-digital-training",
+        "fileName": "digital-training.jpg",
+        "url": "/images/digital-training.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Trois femmes devant un ordinateur lors d’une session de formation numérique au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-youth",
+        "fileName": "youth.jpg",
+        "url": "/images/youth.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Jeunes footballeurs en tenue verte rassemblés sur un terrain au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-school-garden",
+        "fileName": "school-garden.jpg",
+        "url": "/images/school-garden.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Élève arrosant un jardin scolaire dans une communauté rurale du Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-women-cooperative",
+        "fileName": "women-cooperative.jpg",
+        "url": "/images/women-cooperative.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Femmes transformant des noix de karité dans un cadre coopératif au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-community-resilience",
+        "fileName": "community-resilience.jpg",
+        "url": "/images/community-resilience.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Femmes construisant collectivement des diguettes anti-érosives dans un champ au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-about-bobo",
+        "fileName": "about-bobo.jpg",
+        "url": "/images/about-bobo.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Vue d’une artère commerçante de Bobo-Dioulasso, Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-community-radio",
+        "fileName": "community-radio.jpg",
+        "url": "/images/community-radio.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Journaliste dans un studio de radio communautaire au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-water-community",
+        "fileName": "water-community.jpg",
+        "url": "/images/water-community.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Femmes et enfants puisant de l’eau à un point d’eau communautaire au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-women-livelihoods",
+        "fileName": "women-livelihoods.jpg",
+        "url": "/images/women-livelihoods.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Vendeuse d’arachides sur un marché au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "media-local-market",
+        "fileName": "local-market.jpg",
+        "url": "/images/local-market.jpg",
+        "mimeType": "image/jpeg",
+        "size": 0,
+        "alt": "Marché alimentaire traditionnel animé au Burkina Faso.",
+        "createdAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  }
+}
