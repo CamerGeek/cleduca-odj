@@ -47,7 +47,15 @@ export function excerptFrom(markdown: string, length = 180) {
 }
 
 export function getSiteUrl() {
-  return (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  // Vercel expose l’URL publique de lui-même : sans ce repli, métadonnées,
+  // plan de site et robots pointeraient vers localhost en production.
+  const vercelHost =
+    process.env.VERCEL_ENV === "preview"
+      ? process.env.VERCEL_URL
+      : process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
+  const fallback = vercelHost ? `https://${vercelHost}` : "http://localhost:3000";
+  return (explicit || fallback).replace(/\/$/, "");
 }
 
 export function absoluteUrl(path: string) {

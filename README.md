@@ -115,8 +115,9 @@ documenté.
 ## Déploiement Vercel
 
 1. Importer le dépôt dans Vercel (framework Next.js, aucune commande spéciale).
-2. Ajouter les variables d’environnement de `.env.example`, en particulier
-   `NEXT_PUBLIC_SITE_URL` avec l’URL définitive.
+2. Ajouter les variables d’environnement de `.env.example`. `NEXT_PUBLIC_SITE_URL`
+   fixe l’URL canonique ; à défaut, Vercel fournit automatiquement le domaine du
+   projet (métadonnées, plan de site et robots restent alors corrects).
 3. Configurer Supabase et le bucket `media` avant la mise en ligne : le stockage
    local `.data/uploads` n’est pas persistant sur Vercel.
 4. Vérifier après déploiement : `/sitemap.xml`, `/robots.txt`, connexion à
