@@ -15,7 +15,11 @@ des médias et l’authentification des comptes d’administration.
    - `SUPABASE_SERVICE_ROLE_KEY` (serveur uniquement)
 4. Injecter les contenus vérifiés : `npm run db:seed`.
 5. Créer le premier compte d’administration (Authentication → Users → Invite),
-   puis lui attribuer le rôle `super_admin` dans la table `public.users`.
+   puis lui attribuer le rôle `super_admin` et `is_active = true` dans la table
+   `public.users`.
+6. Dans **Authentication → Sign In / Providers**, désactiver « Allow new users
+   to sign up ». L’application n’expose aucune inscription publique : les comptes
+   sont créés par invitation depuis `/admin/utilisateurs`.
 
 ## Modèle
 
@@ -52,6 +56,14 @@ Choix de modélisation :
 ## Sécurité et RLS
 
 La RLS est activée sur toutes les tables.
+
+**Provisionnement des comptes.** Le déclencheur `handle_new_auth_user` crée un
+profil dans `public.users` à chaque nouvelle entrée dans `auth.users`. Les
+métadonnées utilisateur (`raw_user_meta_data`) étant modifiables lors d’une
+inscription, elles ne servent jamais à attribuer un rôle : seul
+`raw_app_meta_data`, écrit par la clé de service, peut activer un compte.
+Toute autre inscription est créée **inactive** en tant que contributeur et reste
+sans accès jusqu’à validation par un administrateur.
 
 - **Lecture anonyme** : uniquement les contenus publiés (`status`,
   `content_status` ou `published` selon la table), les paramètres du site et les

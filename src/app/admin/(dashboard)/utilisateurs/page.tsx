@@ -57,6 +57,8 @@ export default async function UsersPage({
       "L’invitation nécessite Supabase Auth et la clé de service.",
     invitation: "L’invitation n’a pas pu être envoyée. Vérifiez la configuration e-mail de Supabase.",
     "invitation-invalide": "Vérifiez l’adresse e-mail, le nom et le rôle.",
+    "invitation-profil":
+      "L’invitation a été créée mais le profil n’a pas pu être activé. Activez le compte manuellement dans la liste ci-dessous.",
   };
 
   const roleKeys = Object.keys(ROLE_LABELS) as Role[];
@@ -244,7 +246,7 @@ export default async function UsersPage({
         <div className="space-y-4">
           <AdminPanel
             title="Inviter un utilisateur"
-            description="Un e-mail d’invitation est envoyé par Supabase. Le compte reste inactif jusqu’à l’acceptation."
+            description="Un e-mail d’invitation est envoyé par Supabase. Le compte est activé immédiatement avec le rôle choisi ; la personne définit son mot de passe avant sa première connexion."
           >
             {canInvite ? (
               <form action={inviteUserAction} className="space-y-3">

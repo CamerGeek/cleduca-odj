@@ -118,7 +118,7 @@ export async function inviteUserAction(formData: FormData): Promise<void> {
   }
 
   if (data?.user?.id) {
-    await client.from("users").upsert(
+    const { error: profileError } = await client.from("users").upsert(
       {
         id: data.user.id,
         email,
@@ -128,6 +128,10 @@ export async function inviteUserAction(formData: FormData): Promise<void> {
       },
       { onConflict: "id" },
     );
+
+    if (profileError) {
+      redirect("/admin/utilisateurs?erreur=invitation-profil");
+    }
   }
 
   await logAdminActivity(

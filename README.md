@@ -105,6 +105,9 @@ documenté.
 - Mots de passe vérifiés par Supabase Auth en production ; accès local réservé
   au développement.
 - RLS activée sur toutes les tables ; clé de service strictement côté serveur.
+- Aucune inscription publique : comptes créés par invitation, provisionnés
+  inactifs tant qu’un administrateur ne les a pas activés. Les rôles ne
+  proviennent jamais des métadonnées modifiables par l’utilisateur.
 - Validation Zod, limitation de débit et honeypot sur les formulaires publics ;
   adresse IP hachée avant enregistrement.
 - Journal d’activité horodaté pour chaque action d’administration.

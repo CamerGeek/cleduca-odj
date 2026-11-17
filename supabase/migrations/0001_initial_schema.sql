@@ -21,13 +21,15 @@ create table if not exists public.users (
   full_name text not null default '',
   role text not null default 'contributor'
     check (role in ('super_admin', 'admin', 'editor', 'contributor')),
-  is_active boolean not null default true,
+  is_active boolean not null default false,
   created_at timestamptz not null default now(),
   last_seen_at timestamptz
 );
 
+alter table public.users alter column is_active set default false;
+
 comment on table public.users is
-  'Profils d’administration, liés à auth.users. Le rôle applicatif est stocké ici, jamais dans le JWT.';
+  'Profils d’administration, liés à auth.users. Le rôle applicatif est stocké ici, jamais dans le JWT. Un compte n’est actif qu’après validation d’un administrateur.';
 
 -- ---------------------------------------------------------------------------
 -- Paramètres du site (document unique, id = 1)
@@ -430,25 +432,30 @@ $$;
 -- Provisionnement des comptes depuis Supabase Auth
 -- ---------------------------------------------------------------------------
 
+-- raw_user_meta_data est modifiable par l’utilisateur lors d’une inscription :
+-- un rôle n’y est donc jamais digne de confiance. Seul raw_app_meta_data, que
+-- seule la clé de service peut écrire, peut activer un compte. Toute autre
+-- inscription reste inactive jusqu’à validation par un administrateur.
 create or replace function public.handle_new_auth_user()
 returns trigger
 language plpgsql
 security definer
 set search_path = public
 as $$
+declare
+  trusted_role text;
+  is_trusted boolean;
 begin
+  trusted_role := coalesce(new.raw_app_meta_data ->> 'role', '');
+  is_trusted := trusted_role in ('super_admin', 'admin', 'editor', 'contributor');
+
   insert into public.users (id, email, full_name, role, is_active)
   values (
     new.id,
     coalesce(new.email, ''),
     coalesce(new.raw_user_meta_data ->> 'full_name', ''),
-    case
-      when coalesce(new.raw_user_meta_data ->> 'role', '') in
-        ('super_admin', 'admin', 'editor', 'contributor')
-      then new.raw_user_meta_data ->> 'role'
-      else 'contributor'
-    end,
-    true
+    case when is_trusted then trusted_role else 'contributor' end,
+    is_trusted
   )
   on conflict (id) do update
     set email = excluded.email,

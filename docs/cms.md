@@ -98,14 +98,21 @@ immédiatement répercutées sur le site public.
 
 ## Comptes et rôles
 
-La gestion des comptes nécessite Supabase Auth et la clé de service. Un
-administrateur crée les comptes par invitation (Authentication → Users, ou
-panneau d’invitation). Un super administrateur attribue ensuite le rôle dans la
-table `public.users`.
+La gestion des comptes nécessite Supabase Auth et la clé de service. **Aucune
+inscription publique n’est proposée** : les comptes sont créés par invitation
+depuis le panneau « Inviter un utilisateur » (ou Authentication → Users dans
+Supabase). L’invitation active le compte avec le rôle choisi ; la personne
+définit ensuite son mot de passe. Un super administrateur peut modifier le rôle
+ou désactiver un compte dans la table `public.users`.
+
+Les inscriptions libre-service doivent rester désactivées dans Supabase
+(Authentication → Sign In / Providers). Si elles étaient activées, les comptes
+ainsi créés seraient inactifs : le déclencheur de provisionnement n’accorde un
+rôle que depuis les métadonnées d’application, réservées à la clé de service.
 
 Sécurités : impossible de modifier son propre rôle ou de désactiver son compte ;
 le dernier super administrateur actif ne peut pas être retiré. Un compte
-désactivé perd l’accès.
+désactivé perd l’accès, y compris via les policies RLS.
 
 ## Journal d’activité
 
