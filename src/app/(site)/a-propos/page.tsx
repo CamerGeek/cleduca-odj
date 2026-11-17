@@ -19,13 +19,14 @@ import {
   getPartners,
   getSettings,
 } from "@/lib/content/queries";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "À propos",
   description:
     "Histoire, mission, vision, valeurs, approche et gouvernance de CLEDUCA-ODJ, organisation de la société civile burkinabè créée en 1997 à Bobo-Dioulasso.",
-  alternates: { canonical: "/a-propos" },
-};
+  path: "/a-propos",
+});
 
 const approachSteps = [
   {

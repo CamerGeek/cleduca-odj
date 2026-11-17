@@ -11,13 +11,14 @@ import {
   PARTNER_TYPE_LABELS,
   type PartnerType,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Partenaires",
   description:
     "Politique de partenariat de CLEDUCA-ODJ : principes, catégories de partenaires, processus de validation et publication des collaborations autorisées.",
-  alternates: { canonical: "/partenaires" },
-};
+  path: "/partenaires",
+});
 
 const partnerTypeKeys = Object.keys(PARTNER_TYPE_LABELS) as PartnerType[];
 

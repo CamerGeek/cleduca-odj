@@ -15,13 +15,14 @@ import {
   PROJECT_STATUS_LABELS,
   type ProjectStatus,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Projets",
   description:
     "Le portefeuille de projets de CLEDUCA-ODJ : PASEDI, PALVEN, Justice de proximité – Guiriko et CIVI-LINK, avec leur statut, leur couverture et leur niveau de documentation.",
-  alternates: { canonical: "/projets" },
-};
+  path: "/projets",
+});
 
 const statusKeys = Object.keys(PROJECT_STATUS_LABELS) as ProjectStatus[];
 

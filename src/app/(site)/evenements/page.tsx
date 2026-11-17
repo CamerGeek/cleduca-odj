@@ -8,14 +8,15 @@ import { EmptyState, PageHero } from "@/components/ui/page-hero";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { getEvents } from "@/lib/content/queries";
 import type { Event } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 import { formatDate, isExternalHref } from "@/lib/utils";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Événements",
   description:
     "Agenda des rencontres, ateliers, formations et temps communautaires de CLEDUCA-ODJ. Les événements sont publiés après confirmation de leur date et de leur lieu.",
-  alternates: { canonical: "/evenements" },
-};
+  path: "/evenements",
+});
 
 function formatTime(value: string) {
   const date = new Date(value);

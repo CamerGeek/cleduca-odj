@@ -21,14 +21,15 @@ import {
   PUBLICATION_CATEGORY_LABELS,
   type PublicationCategory,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 import { cn, formatDate, isExternalHref } from "@/lib/utils";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Centre de ressources",
   description:
     "Rapports, notes, guides et documents institutionnels de CLEDUCA-ODJ. Les documents sont publiés après validation et précisent leur source, leur date et leur format.",
-  alternates: { canonical: "/ressources" },
-};
+  path: "/ressources",
+});
 
 const categoryKeys = Object.keys(
   PUBLICATION_CATEGORY_LABELS,

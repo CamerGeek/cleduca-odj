@@ -7,13 +7,14 @@ import { Badge } from "@/components/ui/badge";
 import { PageHero } from "@/components/ui/page-hero";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { getAreas } from "@/lib/content/queries";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Domaines d’intervention",
   description:
     "Les neuf domaines d’intervention de CLEDUCA-ODJ : éducation, jeunesse, numérique, inclusion, genre, bien-être, cohésion sociale, justice et résilience.",
-  alternates: { canonical: "/domaines" },
-};
+  path: "/domaines",
+});
 
 export default async function AreasPage() {
   const areas = await getAreas();

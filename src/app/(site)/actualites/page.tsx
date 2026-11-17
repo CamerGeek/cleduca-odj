@@ -12,14 +12,15 @@ import {
   ARTICLE_CATEGORY_LABELS,
   type ArticleCategory,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Actualités et publications",
   description:
     "Actualités, annonces, notes de terrain et publications de CLEDUCA-ODJ sur l’éducation, la jeunesse, l’inclusion, le numérique et la justice de proximité.",
-  alternates: { canonical: "/actualites" },
-};
+  path: "/actualites",
+});
 
 const categoryKeys = Object.keys(ARTICLE_CATEGORY_LABELS) as ArticleCategory[];
 

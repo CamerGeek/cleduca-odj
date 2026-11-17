@@ -32,9 +32,17 @@ export async function generateMetadata({
     description: area.summary,
     alternates: { canonical: `/domaines/${area.slug}` },
     openGraph: {
+      type: "website",
+      url: `/domaines/${area.slug}`,
       title: `${area.title} | CLEDUCA-ODJ`,
       description: area.summary,
       images: [{ url: area.image, alt: area.imageAlt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${area.title} | CLEDUCA-ODJ`,
+      description: area.summary,
+      images: [area.image],
     },
   };
 }

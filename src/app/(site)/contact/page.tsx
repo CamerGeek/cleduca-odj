@@ -22,13 +22,14 @@ import {
   INQUIRY_TYPE_LABELS,
   type InquiryType,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Contact et engagement",
   description:
     "Contacter CLEDUCA-ODJ, proposer un partenariat, devenir bénévole ou demander une information. Formulaire sécurisé et coordonnées institutionnelles.",
-  alternates: { canonical: "/contact" },
-};
+  path: "/contact",
+});
 
 const engagementPaths = [
   {

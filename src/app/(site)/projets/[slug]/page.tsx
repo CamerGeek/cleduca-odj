@@ -41,9 +41,17 @@ export async function generateMetadata({
     description: project.summary,
     alternates: { canonical: `/projets/${project.slug}` },
     openGraph: {
+      type: "website",
+      url: `/projets/${project.slug}`,
       title: `${project.acronym} | CLEDUCA-ODJ`,
       description: project.summary,
       images: [{ url: project.image, alt: project.imageAlt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${project.acronym} | CLEDUCA-ODJ`,
+      description: project.summary,
+      images: [project.image],
     },
   };
 }

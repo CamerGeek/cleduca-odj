@@ -24,14 +24,15 @@ import {
   PROJECT_STATUS_LABELS,
   type ProjectStatus,
 } from "@/lib/content/types";
+import { pageMetadata } from "@/lib/seo";
 import { formatDate, formatNumber } from "@/lib/utils";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Impact et redevabilité",
   description:
     "Indicateurs vérifiés, sources, périodes de référence et limites des données publiées par CLEDUCA-ODJ. Aucun chiffre n’est extrapolé.",
-  alternates: { canonical: "/impact" },
-};
+  path: "/impact",
+});
 
 const principles = [
   {

@@ -36,6 +36,20 @@ export async function generateMetadata({
       description: page.intro,
       url: `/${page.slug}`,
       modifiedTime: page.updatedAt,
+      images: [
+        {
+          url: "/images/community-gathering.jpg",
+          width: 1200,
+          height: 800,
+          alt: "Séance de dialogue communautaire au Burkina Faso.",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.title,
+      description: page.intro,
+      images: ["/images/community-gathering.jpg"],
     },
   };
 }
