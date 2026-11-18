@@ -22,7 +22,9 @@ export interface MediaActionState {
   message: string;
 }
 
-const MAX_BYTES = 5 * 1024 * 1024;
+// Vercel refuse les requêtes de plus de 4,5 Mo : plafonner à 4 Mo laisse la
+// marge nécessaire au multipart avant d’atteindre la fonction.
+const MAX_BYTES = 4 * 1024 * 1024;
 
 const allowedTypes: Record<string, string> = {
   "image/jpeg": "jpg",
@@ -67,7 +69,7 @@ export async function uploadMediaAction(
   if (upload.size > MAX_BYTES) {
     return {
       status: "error",
-      message: "Le fichier dépasse la taille maximale de 5 Mo.",
+      message: "Le fichier dépasse la taille maximale de 4 Mo.",
     };
   }
   if (alt.length < 5) {

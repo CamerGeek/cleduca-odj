@@ -81,7 +81,7 @@ données, traitez-le puis supprimez-le sans en conserver de copie.
 
 ## Médiathèque
 
-- Formats acceptés : JPEG, PNG, WebP, AVIF, GIF (5 Mo maximum). Les SVG sont
+- Formats acceptés : JPEG, PNG, WebP, AVIF, GIF (4 Mo maximum). Les SVG sont
   refusés pour des raisons de sécurité.
 - Le texte alternatif est obligatoire et doit décrire factuellement l’image.
 - Les visuels fournis avec le site sont protégés : ils ne peuvent pas être

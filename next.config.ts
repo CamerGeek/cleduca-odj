@@ -41,6 +41,9 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ["lucide-react"],
+    // Next limite les Server Actions à 1 Mo : tout téléversement d’image
+    // échouait avant même d’atteindre la validation du fichier.
+    serverActions: { bodySizeLimit: "6mb" },
   },
 };
 

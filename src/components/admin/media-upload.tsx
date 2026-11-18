@@ -13,10 +13,14 @@ import { Button } from "@/components/ui/button";
 
 const initialState: MediaActionState = { status: "idle", message: "" };
 
-function SubmitButton() {
+// Même plafond que la Server Action : au-delà, la requête est rejetée par la
+// plateforme avant d’atteindre l’application.
+const MAX_BYTES = 4 * 1024 * 1024;
+
+function SubmitButton({ disabled }: { disabled?: boolean }) {
   const { pending } = useFormStatus();
   return (
-    <Button type="submit" disabled={pending} size="md">
+    <Button type="submit" disabled={pending || disabled} size="md">
       {pending ? (
         <>
           <LoaderCircle aria-hidden className="size-4 animate-spin" />
@@ -35,9 +39,16 @@ function SubmitButton() {
 export function MediaUploadForm() {
   const [state, formAction] = useActionState(uploadMediaAction, initialState);
   const [fileInfo, setFileInfo] = useState("");
+  const [sizeError, setSizeError] = useState("");
 
   return (
-    <form action={formAction} className="space-y-4">
+    <form
+      action={formAction}
+      onSubmit={(event) => {
+        if (sizeError) event.preventDefault();
+      }}
+      className="space-y-4"
+    >
       {state.status === "error" && state.message ? (
         <div
           role="alert"
@@ -65,14 +76,23 @@ export function MediaUploadForm() {
                   ? `${file.name} — ${(file.size / 1024).toFixed(0)} Ko`
                   : "",
               );
+              setSizeError(
+                file && file.size > MAX_BYTES
+                  ? "Cette image dépasse 4 Mo. Réduisez-la avant de la téléverser."
+                  : "",
+              );
             }}
             className="block w-full rounded-xl border border-sand-400/80 bg-white px-3 py-2.5 text-sm text-ink-soft file:mr-3 file:rounded-full file:border-0 file:bg-forest-800 file:px-3 file:py-1.5 file:font-display file:text-xs file:font-semibold file:text-white"
           />
           <p className="field-help">
-            JPEG, PNG, WebP, AVIF ou GIF. 5 Mo maximum. Les fichiers SVG ne sont
+            JPEG, PNG, WebP, AVIF ou GIF. 4 Mo maximum. Les fichiers SVG ne sont
             pas acceptés pour des raisons de sécurité.
           </p>
-          {fileInfo ? (
+          {sizeError ? (
+            <p role="alert" className="mt-1 text-xs font-medium text-red-700">
+              {sizeError}
+            </p>
+          ) : fileInfo ? (
             <p className="mt-1 text-xs font-medium text-forest-700">{fileInfo}</p>
           ) : null}
         </div>
@@ -104,7 +124,7 @@ export function MediaUploadForm() {
           disposent d’une licence compatible. Indiquez le crédit dans la légende
           lors de l’utilisation.
         </p>
-        <SubmitButton />
+        <SubmitButton disabled={Boolean(sizeError)} />
       </div>
     </form>
   );
